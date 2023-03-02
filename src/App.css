@@ -1,38 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  font-family: 'Golos Text', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.grid-child {
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gird-child h3 {
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.grid-child p {
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
 }
